@@ -1,0 +1,26 @@
+///-----
+
+How to play bugsy
+
+///-----
+
+Bugsy is played in the terminal.
+
+The goal is to collect as many " $ " as possible
+
+Your bug can die by either running into a "@ or "%" or by them running into you.
+
+Your score will decrease by 1 per turn and increase by 20 whenever you collect " $ "
+
+Watch out! The @ and % can hide behind each other and the $
+
+% moves up and down and @ moves left to right.
+
+//----
+If you want to make the playing area larger or smaller, you can change the "size" variable in the BugController script. its near the top.
+
+
+//---
+If you want to add more enemies, you will need to declare them.  The enemies are declared on lines 53, 54, 56, and 57. You can add more, just give them different names
+
+You'll need to also update the positions in the loop.  the updates are on lines 119, 120, 122, and 123. 
